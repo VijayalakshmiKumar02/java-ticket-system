@@ -124,6 +124,12 @@
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.2.2</version>
 		</dependency>
+		<dependency>
+		   <groupId>org.slf4j</groupId>
+		   <artifactId>slf4j-simple</artifactId>
+		   <version></version>
+		   <scope>compile</scope>
+	    </dependency>
 	</dependencies>
 	<build>
 		<finalName>ticketz</finalName>
